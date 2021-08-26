@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./Assets/icons8-instagram-logo.svg"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://www.jsdelivr.com/package/npm/normalize-css"
+    />
+    <!-- Bootstrap CDN Link -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome CDN -->
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Instagram</title>
+  </head>
+  <body>
+    <!-- Navigation  -->
+
+    <nav class="nav-container sticky-top bg-light">
+      <div>
+        <h2 class="logo">Instagram</h2>
+      </div>
+      <div class="d-flex align-middle">
+        <a href="#" class="nav-icon h2 text-dark">
+          <i class="far fa-plus-square"></i
+        ></a>
+        <a href="#" class="nav-icon h2 text-dark">
+          <i class="fab fa-telegram-plane ms-3"></i
+        ></a>
+      </div>
+    </nav>
+
+    <!-- Bottom Navigation -->
+    <nav class="fixed-bottom">
+      <ul class="nav-main list-unstyled">
+        <li>
+          <a href="#"><i class="fas fa-home"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-search"></i></a>
+        </li>
+        <li>
+          <a href="#" class="play-btn"><i class="fas fa-play"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="far fa-heart"></i></a>
+        </li>
+        <li>
+          <a href="#">
+            <img
+              class="profile-nav"
+              src="https://images.unsplash.com/photo-1569600428323-7fd18782b483?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hlZXRhaHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+              alt=""
+          /></a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Status Section -->
+    <section class="status-container mt-3">
+      <div class="story-container">
+        <div class="story">
+          <a href="#">
+            <img
+              src="https://images.unsplash.com/photo-1569600428323-7fd18782b483?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hlZXRhaHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+              alt=""
+            />
+            <i class="fas fa-plus add-story p-1 bg-primary"></i>
+          </a>
+          <small>Your Story</small>
+        </div>
+      </div>
+      <div class="story-container">
+        <div class="story">
+          <a href="#">
+            <img
+              src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmlsZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+              alt=""
+            />
+          </a>
+          <small>Monish</small>
+        </div>
+      </div>
+      <div class="story-container">
+        <div class="story">
+          <a href="#">
+            <img
+              src="https://images.unsplash.com/photo-1502323777036-f29e3972d82f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTR8fHByb2ZpbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+              alt=""
+            />
+          </a>
+          <small>Emily</small>
+        </div>
+      </div>
+      <div class="story-container">
+        <div class="story">
+          <a href="#">
+            <img
+              src="https://images.unsplash.com/photo-1457449940276-e8deed18bfff?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZmlsZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+              alt=""
+            />
+          </a>
+          <small>Tamil</small>
+        </div>
+      </div>
+
+      <div class="story-container">
+        <div class="story">
+          <a href="#">
+            <img
+              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHByb2ZpbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+              alt=""
+            />
+          </a>
+          <small>Juli</small>
+        </div>
+      </div>
+      <div class="story-container">
+        <div class="story">
+          <a href="#">
+            <img
+              src="https://images.unsplash.com/photo-1474978528675-4a50a4508dc3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHByb2ZpbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+              alt=""
+            />
+          </a>
+          <small>Carol</small>
+        </div>
+      </div>
+      <div class="story-container">
+        <div class="story">
+          <a href="#">
+            <img
+              src="https://images.unsplash.com/photo-1532074205216-d0e1f4b87368?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHByb2ZpbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+              alt=""
+            />
+          </a>
+          <small>Annie</small>
+        </div>
+      </div>
+      <div class="story-container">
+        <div class="story">
+          <a href="#">
+            <img
+              src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHByb2ZpbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+              alt=""
+            />
+          </a>
+          <small>John</small>
+        </div>
+      </div>
+
+      <div class="story-container">
+        <div class="story">
+          <a href="#">
+            <img
+              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fHByb2ZpbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+              alt=""
+            />
+          </a>
+          <small>Silvi</small>
+        </div>
+      </div>
+
+      <div class="story-container">
+        <div class="story">
+          <a href="#">
+            <img
+              src="https://images.unsplash.com/photo-1520592978680-efbdeae5d036?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fHByb2ZpbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+              alt=""
+            />
+          </a>
+          <small>Robert</small>
+        </div>
+      </div>
+
+      <div class="story-container">
+        <div class="story">
+          <a href="#">
+            <img
+              src="https://images.unsplash.com/photo-1541298645675-6cc8e127934d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fHByb2ZpbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+              alt=""
+            />
+          </a>
+          <small>Angula</small>
+        </div>
+      </div>
+
+      <div class="story-container">
+        <div class="story">
+          <a href="#">
+            <img
+              src="https://images.unsplash.com/photo-1534308143481-c55f00be8bd7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fHByb2ZpbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+              alt=""
+            />
+          </a>
+          <small>Peter</small>
+        </div>
+      </div>
+
+      <div class="story-container">
+        <div class="story">
+          <a href="#">
+            <img
+              src="https://images.unsplash.com/photo-1542685295-b280fd4d2c59?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDd8fHByb2ZpbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+              alt=""
+            />
+          </a>
+          <small>Alone BGM</small>
+        </div>
+      </div>
+
+      <div class="story-container">
+        <div class="story">
+          <a href="#">
+            <img
+              src="https://images.unsplash.com/photo-1587723958656-ee042cc565a1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDZ8fHByb2ZpbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+              alt=""
+            />
+          </a>
+          <small>Cat Post</small>
+        </div>
+      </div>
+
+      <div class="story-container">
+        <div class="story">
+          <a href="#">
+            <img
+              src="https://images.unsplash.com/photo-1455274111113-575d080ce8cd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHByb2ZpbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+              alt=""
+            />
+          </a>
+          <small>Steve</small>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <!-- Posts  -->
+
+    <section class="post-container-main">
+      <!-- Post Cards -->
+
+      <div class="post-container">
+        <div class="post-nav">
+          <img
+            src="https://images.unsplash.com/photo-1455274111113-575d080ce8cd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHByb2ZpbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+            alt=""
+            class="profile"
+          />
+          <small class="user-name">SampleText</small>
+          <small class="user-sub">SampleText</small>
+        </div>
+        <div class="post-img">
+          <img src="https://source.unsplash.com/random/ocean" alt="" />
+        </div>
+        <div class="feedback d-flex justify-content-between align-items-center">
+          <div class="like-comment-share">
+            <img src="./Assets/favorite_border_black_24dp.svg" alt="" />
+            <img src="./Assets/chat_bubble_outline_black_24dp.svg" alt="" />
+            <img src="./Assets/send_black_24dp.svg" alt="" />
+          </div>
+          <div class="save">
+            <img src="./Assets/bookmark_border_black_24dp.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="caption">
+          <small>173 likes</small>
+          <p>
+            Sample Name <br />
+            Lorem ipsum dolor sit amet consectetur
+          </p>
+        </div>
+      </div>
+
+      <div class="post-container">
+        <div class="post-nav">
+          <img
+            src="https://images.unsplash.com/photo-1455274111113-575d080ce8cd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHByb2ZpbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+            alt=""
+            class="profile"
+          />
+          <small class="user-name">SampleText</small>
+          <small class="user-sub">SampleText</small>
+        </div>
+        <div class="post-img">
+          <img src="https://source.unsplash.com/random/forest" alt="" />
+        </div>
+        <div class="feedback d-flex justify-content-between align-items-center">
+          <div class="like-comment-share">
+            <img src="./Assets/favorite_border_black_24dp.svg" alt="" />
+            <img src="./Assets/chat_bubble_outline_black_24dp.svg" alt="" />
+            <img src="./Assets/send_black_24dp.svg" alt="" />
+          </div>
+          <div class="save">
+            <img src="./Assets/bookmark_border_black_24dp.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="caption">
+          <small>173 likes</small>
+          <p>
+            Sample Name <br />
+            Lorem ipsum dolor sit amet consectetur
+          </p>
+        </div>
+      </div>
+      <div class="post-container">
+        <div class="post-nav">
+          <img
+            src="https://images.unsplash.com/photo-1455274111113-575d080ce8cd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHByb2ZpbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+            alt=""
+            class="profile"
+          />
+          <small class="user-name">SampleText</small>
+          <small class="user-sub">SampleText</small>
+        </div>
+        <div class="post-img">
+          <img src="https://source.unsplash.com/random/nature" alt="" />
+        </div>
+        <div class="feedback d-flex justify-content-between align-items-center">
+          <div class="like-comment-share">
+            <img src="./Assets/favorite_border_black_24dp.svg" alt="" />
+            <img src="./Assets/chat_bubble_outline_black_24dp.svg" alt="" />
+            <img src="./Assets/send_black_24dp.svg" alt="" />
+          </div>
+          <div class="save">
+            <img src="./Assets/bookmark_border_black_24dp.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="caption">
+          <small>173 likes</small>
+          <p>
+            Sample Name <br />
+            Lorem ipsum dolor sit amet consectetur
+          </p>
+        </div>
+      </div>
+
+      <div class="post-container">
+        <div class="post-nav">
+          <img
+            src="https://images.unsplash.com/photo-1455274111113-575d080ce8cd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHByb2ZpbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+            alt=""
+            class="profile"
+          />
+          <small class="user-name">SampleText</small>
+          <small class="user-sub">SampleText</small>
+        </div>
+        <div class="post-img">
+          <img src="https://source.unsplash.com/random/sky" alt="" />
+        </div>
+        <div class="feedback d-flex justify-content-between align-items-center">
+          <div class="like-comment-share">
+            <img src="./Assets/favorite_border_black_24dp.svg" alt="" />
+            <img src="./Assets/chat_bubble_outline_black_24dp.svg" alt="" />
+            <img src="./Assets/send_black_24dp.svg" alt="" />
+          </div>
+          <div class="save">
+            <img src="./Assets/bookmark_border_black_24dp.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="caption">
+          <small>173 likes</small>
+          <p>
+            Sample Name <br />
+            Lorem ipsum dolor sit amet consectetur
+          </p>
+        </div>
+      </div>
+
+      <div class="post-container">
+        <div class="post-nav">
+          <img
+            src="https://images.unsplash.com/photo-1455274111113-575d080ce8cd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHByb2ZpbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+            alt=""
+            class="profile"
+          />
+          <small class="user-name">SampleText</small>
+          <small class="user-sub">SampleText</small>
+        </div>
+        <div class="post-img">
+          <img src="https://source.unsplash.com/random/lion" alt="" />
+        </div>
+        <div class="feedback d-flex justify-content-between align-items-center">
+          <div class="like-comment-share">
+            <img src="./Assets/favorite_border_black_24dp.svg" alt="" />
+            <img src="./Assets/chat_bubble_outline_black_24dp.svg" alt="" />
+            <img src="./Assets/send_black_24dp.svg" alt="" />
+          </div>
+          <div class="save">
+            <img src="./Assets/bookmark_border_black_24dp.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="caption">
+          <small>173 likes</small>
+          <p>
+            Sample Name <br />
+            Lorem ipsum dolor sit amet consectetur
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+  <!-- Bootstrap CDN Javascript -->
+
+  <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"
+  ></script>
+</html>
