@@ -184,7 +184,7 @@ img {
 
 /* FeedBAck */
 
-@media screen and (max-width: 320px) {
+@media screen and (orientation: portrait) {
   .post-container-main {
     width: 100%;
   }
